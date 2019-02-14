@@ -10,7 +10,7 @@ class Post
   end
 
   def all
-    @@all
+    self.post.all
   end 
  
 end
