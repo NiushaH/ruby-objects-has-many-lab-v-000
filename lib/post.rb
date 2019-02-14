@@ -6,10 +6,9 @@ class Post
   def initialize(title, author=nil)
     @title = title
     @author = author
+    @@all << title
   end
 
-  def new(title)
-    @@all << title
-  end  
+
  
 end
