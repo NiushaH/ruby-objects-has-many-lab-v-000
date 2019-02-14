@@ -24,8 +24,16 @@ class Artist
     counter +=1
   end
   
-  def song_count
-    counter
-  end  
+  def self.count
+    self.all.size
+  end
+
+  def songs_count
+    self.songs.size
+  end
+
+  def count
+    self.size
+  end
   
 end
