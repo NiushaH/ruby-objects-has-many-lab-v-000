@@ -14,8 +14,7 @@ class Post
   end 
  
   def author_name
-    @author.name
-    
+    self.author != nil ? self.author.name : nil
   end
  
 end
